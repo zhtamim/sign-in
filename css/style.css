@@ -1,0 +1,57 @@
+*{
+    outline: 0;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: 'Open Sans', sans-serif;   
+ min-height: 100vh;
+ background: #283c86;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ justify-content: center;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+form{
+  width: 40%;
+  border: 1px solid gold;
+  border-radius: 25px;
+  padding: 30px;
+  background-color: #6d6d6e;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px 25px 10px 15px;
+}
+form input button .eye{
+    height: 5px;
+    width: 5px;
+}
+form .pass{
+    position: relative;
+}
+form .pass button{
+    position: absolute;
+    right: 5px;
+    top: 30%;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+form .lgin button{
+font-size: 15px;
+background-color:rgb(184, 136, 136);
+padding: 5px 10px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
